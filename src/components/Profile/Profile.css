@@ -1,0 +1,40 @@
+.content{
+	grid-area: content;
+	background: #acc;
+	padding: 10px;
+}
+.content__img{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 20px;
+}
+.content__img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.content-info{
+	display: flex;
+	margin-bottom: 20px;
+}
+.content-info__img{
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+}
+.content-info__img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.content-info__title{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.posts{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.new-posts__item{
+	margin-bottom: 20px;
+}

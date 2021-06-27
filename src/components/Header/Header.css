@@ -1,0 +1,12 @@
+.header{
+	grid-area: header;
+	background: #ccc;
+	padding: 10px;
+}
+.header__logo{
+	height: 100%;
+}
+.header__logo img{
+	display: block;
+	max-height: 100%;
+}
