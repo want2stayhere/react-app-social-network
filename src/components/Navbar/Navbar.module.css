@@ -9,3 +9,6 @@
 	text-decoration: none;
 	color: #fff;
 }
+.nav__link.active{
+	color: red;
+}

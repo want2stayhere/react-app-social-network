@@ -1,0 +1,26 @@
+.new__posts__item{
+	display: flex;
+	margin-bottom: 20px;
+}
+.new__posts__img{
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.new__posts__img img{
+	max-width: 100%;
+	max-height: 100%;
+	
+}
+.new__posts__info{
+
+}
+.new__posts__item.active{
+	color: red;
+}
+
+.new__posts__like{
+	margin-left: 10px;
+}

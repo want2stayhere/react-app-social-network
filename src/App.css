@@ -1,3 +1,12 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	  sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+
 .layout{
 	max-width: 1200px;
 	margin: 0 auto;
@@ -11,3 +20,8 @@
 }
 
 
+.content{
+	grid-area: content;
+	padding: 10px;
+	background: #ccc;
+}
