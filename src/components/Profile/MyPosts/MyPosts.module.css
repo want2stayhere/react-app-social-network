@@ -1,5 +1,40 @@
-.post{
+.post_item{
 	margin-bottom: 30px;
+}
+.post_item h3{
+	margin: 0 0 20px 0;
+}
+.post_view{
+	display: flex;
+	align-items: flex-start;
+}
+
+.post_view textarea{
+	display: block;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	background: #fff;
+	resize: vertical;
+	width: 50%;
+	height: 100px;
+	outline: none!important;
+	padding: 10px;
+	font-family: inherit;
+	margin: 0 20px 20px 0;
+}
+
+.post_links{
+	display: flex;
+	align-items: center;
+}
+.post_links button{
+	margin-right: 10px;
+	border: 1px solid #ccc;
+	padding: 3px 15px;
+	cursor: pointer;
+}
+.post_links button:last-child{
+	margin-right: 0;
 }
 
 .new__posts{

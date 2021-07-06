@@ -1,3 +1,30 @@
 .dialogs{
+    display: flex;
+    height: 100%;
+}
+
+.dialogs__list{
+    width: 150px;
+    border-right: 1px solid red;
+    margin-right: 30px;
+}
+.dialogs__item{
+
+}
+
+.dialogs__link{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.dialogs__item.active .dialogs__link{
+    color: red;
+}
+
+.messages{
+
+}
+.messages__item{
 
 }
