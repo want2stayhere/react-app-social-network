@@ -3,9 +3,11 @@ import Message from './Message/Message';
 import classesDialogs from './Dialogs.module.css';
 
 const Dialogs = (props) => {
-    let dialogElements = props.dialogs.map(dialog => <DialogItem key={dialog.id} id={dialog.id} name={dialog.name} />); 
+    let dialogElements = props.state.dialogs.map(dialog => 
+        <DialogItem key={dialog.id} id={dialog.id} name={dialog.name} />); 
 
-    let messageElements = props.messages.map(messages => <Message key={messages.id} message={messages.message} />); 
+    let messageElements = props.state.messages.map(messages => 
+        <Message key={messages.id} message={messages.message} />); 
     
     return(
         <div className={classesDialogs.dialogs}>

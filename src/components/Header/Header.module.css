@@ -1,12 +1,21 @@
 .header{
 	grid-area: header;
-	background: #ccc;
+	border:1px solid #ccc;
 	padding: 10px;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
 }
 .header__logo{
 	height: 100%;
+	margin-right: 20px;
 }
 .header__logo img{
 	display: block;
 	max-height: 100%;
+}
+.header__msg{
+	font-weight: bold;
+	font-size: 10px 20px;
+	font-size: 20px;
 }

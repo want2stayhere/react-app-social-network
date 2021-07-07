@@ -1,6 +1,7 @@
 .nav{
 	grid-area: nav;
-	background: green;
+	background: #ccc;
+	border-radius: 3px;
 	padding: 10px;
 }
 .nav__link{
@@ -11,4 +12,32 @@
 }
 .nav__link.active{
 	color: red;
+}
+
+.friends{
+	padding-top: 20px;
+}
+.friends h3{
+	margin: 0 0 10px 0;
+}
+.friends__list{
+	margin-bottom: 20px;
+}
+.friends__item{
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+.friends__item:last-child{
+	margin-bottom: 0;
+}
+.friends__icon{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: yellow;
+	margin-right: 5px;
+}
+.friends__name{
+	color: #000;
 }

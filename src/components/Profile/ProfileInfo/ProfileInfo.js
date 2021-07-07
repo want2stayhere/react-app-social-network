@@ -8,11 +8,11 @@ const ProfileInfo = () => {
             </div>
             <div className={classesProfileInfo.content__info}>
                 <div className={classesProfileInfo.content__info__img}>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdUNllTvwag4LcIRAu9tcb8tgbR_RoaGQSE3_Zv6zS2ewaBC6z9PuJ2bYtfxwCRx7d6U&usqp=CAU" alt="avatar"/>
+                    <img src="https://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1RkXte9t_yNG9O13HfHx88tYKaKTM5SRkZCeTgDn6uOyic&fn=sqr_288" alt="avatar"/>
                 </div>
                 <div className={classesProfileInfo.content__info__view}>
                     <div className={classesProfileInfo.content__info__title}>
-                        Vasia Pupkin
+                        John Rembo
                     </div>
                     <div className={classesProfileInfo.content__info__item}>Date: 2 january</div>
                     <div className={classesProfileInfo.content__info__item}>City: Minsk</div>
