@@ -3,7 +3,7 @@ import classesSettings from './Settings.module.css';
 const Settings = (props) => {
     return(
         <div className={classesSettings.settings}>
-            <div className="settings">ddd</div>
+            <div className="settings">Some settings</div>
         </div>	
     )
 }

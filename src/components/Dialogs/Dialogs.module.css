@@ -79,3 +79,21 @@
     background: red;
     margin-left: 10px;
 }
+
+.messages__add{
+    padding-top: 30px;
+}
+.messages__add textarea{
+    display: block;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background: #fff;
+    resize: vertical;
+    width: 50%;
+    height: 100px;
+    outline: none!important;
+    padding: 10px;
+    font-family: inherit;
+    margin: 0 20px 20px 0;
+    min-width: 280px;
+}

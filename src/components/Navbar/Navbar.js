@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom';
 import Friend from './Friend/Friend';
 
 const Navbar = (props) => {
-    let friendElements = props.state.friends.map(friends => 
-        <Friend key={friends.id} name={friends.name} />); 
-
+    
+    let friendElements = props.state.friends.map(item => 
+        <Friend key={item.id} name={item.name} />); 
     return(
         <nav className={classesNav.nav}>
             <NavLink to="/profile" className={classesNav.nav__link} activeClassName={classesNav.active}>
