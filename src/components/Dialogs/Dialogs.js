@@ -13,17 +13,20 @@ const Dialogs = (props) => {
     //ADDMESSAGE
     let newDialogEl = React.createRef();
     let addMesssage =  () => {
-        props.addMessage();
+        //props.addMessage();
+        props.dispatch({type: "ADD-MESSAGE"});
     };
     //CHANGE MESSAGE
     let onMessageChange = () => {
 		let text = newDialogEl.current.value;
-		props.updateNewMessageText(text);
-        // newDialogEl.current.value='';
+		//props.updateNewMessageText(text);
+        let action = {type: "UPDATE-NEW-MESSAGE-TEXT" , newText: text};
+        props.dispatch(action);
 	}
     
     return(
         <div className={classesDialogs.dialogs}>
+            {/* СПИСОК ДИАЛОГОВ(пользователей) */}
             <div className={classesDialogs.dialogs__list}>
                 {dialogElements}
             </div>
