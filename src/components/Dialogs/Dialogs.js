@@ -13,22 +13,26 @@ const Dialogs = (props) => {
     //ADDMESSAGE
     let newDialogEl = React.createRef();
     let addMesssage =  () => {
-        let text = newDialogEl.current.value;
-        props.addMessage(text);
-        newDialogEl.current.value = "";
+        props.addMessage();
     };
+    //CHANGE MESSAGE
+    let onMessageChange = () => {
+		let text = newDialogEl.current.value;
+		props.updateNewMessageText(text);
+        // newDialogEl.current.value='';
+	}
     
     return(
         <div className={classesDialogs.dialogs}>
             <div className={classesDialogs.dialogs__list}>
                 {dialogElements}
             </div>
-
+            {/* ВЫВОД ДИАЛОГОВ */}
             <div className={classesDialogs.messages}>
                 {messageElements}
                 <div className={classesDialogs.messages__add}>
-                    <textarea ref={newDialogEl}></textarea>
-                    <button onClick={addMesssage}>Add messsage</button>
+                    <textarea ref={newDialogEl} onChange={onMessageChange}  value={props.newMessage} />
+                    <button onClick={addMesssage}>Add message</button>
                 </div>
             </div>
         </div>	
